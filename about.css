@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+nav{
+  background: #000000;
+  height: 70px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 35px;
+  border-radius: 3px;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+.corner{
+  margin-right: 50px;
+}
+#check{
+  display: none;
+}
+@media only screen and (max-width: 952px){
+  label.logo{
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1140px){
+  .checkbtn{
+    display: block;
+  }
+  .about-container {
+  max-width: 900px;
+  margin: 40px 25px;
+  font-family: 'Roboto', sans-serif;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+@media only screen and (min-width: 1140px){
+.about-container {
+  max-width: 900px;
+  margin: 40px auto;
+  font-family: 'Roboto', sans-serif;
+}}
+
+.about-container p {
+  line-height: 2;
+}
+
+.about-container .profile-image {
+  text-align: center;
+  padding: 30px;
+}
+
+.about-container .profile-image img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  padding: 8px;
+  margin-top: 70px
+}
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+  box-shadow: 0 4px 16px -6px rgba(0, 0, 0, 0.4);
+  max-width: 550px;
+  margin: 24px auto;
+  border-radius: 20px;
+}
+
+.projects-container .project {
+  height: 160px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 32px;
+}
+
+.projects-container .project-name {
+  font-size: 16px;
+  font-size: 16px;
+}
+
+.projects-container .project-number {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.our-team-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  padding-top: 64px;
+}
+
+.our-team {
+  display: flex;
+  padding: 30px;
+  height: 350px;
+  width: 100%;
+}
+
+.about-container .our-mission {
+  padding: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.about-container .our-mission .quote-icon {
+  position: center;
+  opacity: 0.2;
+  height: 80px;
+}
+
+.about-container .our-mission p {
+  margin-left: 100px;
+  font-size: 20px;
+  font-style: bold;
+}

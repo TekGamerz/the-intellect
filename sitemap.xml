@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>https://website-1.coderserwin.repl.co</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-java.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/Question.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/about.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-javascript.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-robotics.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-c-plus-plus.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/index.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-c.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-c-sharp.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-gamedev.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-python.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/tutorial.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+  <url>
+    <loc>https://website-1.coderserwin.repl.co/courses/learn-html-css.html</loc>
+    <changefreq>always</changefreq>
+  </url>
+</urlset>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
